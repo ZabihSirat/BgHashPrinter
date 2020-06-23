@@ -1,0 +1,29 @@
+body{
+	min-height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.container{
+	text-align:center;
+}
+.hexColor{
+	text-transform:capitalize;
+}
+.hex{
+	font-size:3rem;
+}
+.btnToChangeBgColor{
+	padding:0.25rem 0.50rem;
+	border: solid 2px #fefefe;
+	border-radius:7px;
+	outline:none;
+	color:#fefefe;
+	background:rgba(0,0,0,0.7);
+	font-size:2rem;
+	text-transform:Capitalize;
+	cursor:pointer;
+}
+.btnToChangeBgColor:hover{
+	background:rgb(0,0,0);
+}
